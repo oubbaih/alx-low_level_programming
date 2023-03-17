@@ -10,25 +10,24 @@
 */
 int main(void)
 {
-        int dig_1, dig_2;
-        
-        for (dig_1 = 0; dig_1 < 9; dig_1++)
-        {       
-                for (dig_2 = dig_1 + 1; dig_2 < 10; dig_2++)
-                {       
-                        putchar((dig_1 % 10) + '0');
-                        putchar((dig_2 % 10) + '0');
+	int digit1, digit2;
 
-			if (dig_1 == 8 && dig_2 == 9)
+	for (digit1 = 0; digit1 < 9; digit1++)
+	{
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		{
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+
+			if (digit1 == 8 && digit2 == 9)
 				continue;
 
 			putchar(',');
 			putchar(' ');
-
 		}
 	}
 
 	putchar('\n');
-	
+
 	return (0);
 }
