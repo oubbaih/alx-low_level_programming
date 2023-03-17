@@ -1,14 +1,20 @@
 /*
  * File: 0-positive_or_negative.c
  * Auth: Lahcen Oubbaih
- * Description: states whather is positive or negative or zero
  */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * Return: Always 0.
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * @parameter: describe the parameter
+ * 
+ * Return: Always 0 (Success)
  */
+
+
 int main(void)
 {
 	int n;
