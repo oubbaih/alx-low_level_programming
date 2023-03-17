@@ -2,7 +2,7 @@
  * File: 2-print_alphabet.c
  * Auth: Lahcen Oubbaih
  */
-#inlucde <stdio.h>
+#include <stdio.h>
 /*
  *  main - prints the alphabet in lowercase, followed by a new line
  *
