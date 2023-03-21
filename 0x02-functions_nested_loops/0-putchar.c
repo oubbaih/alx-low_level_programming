@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "Main";
+	char *sh = "Holberton";
 
 	while (*sh)
 	{
