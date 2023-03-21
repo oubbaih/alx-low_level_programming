@@ -11,11 +11,9 @@ int print_last_digit(int dgt)
 
 	ldgt = (dgt % 10);
 
-	if (ldgt < 0) 
+	if (ldgt < 0)
 	{
-
 		ldgt = (-1 * ldgt);
-	
 	}
 
 	_putchar(ldgt + '0');
